@@ -1,30 +1,29 @@
- Project Files: Folder contain following files
+# Machine Vision and Digital Image Analysis – Practical Assignment
 
-1). Practical_Assignment_MVDL.ipynb   → Main code 
+This repository contains my course project for *Machine Vision and Digital Image Analysis*, completed as part of my Master’s studies in Data‑Centric Engineering at LUT University.  
+The project focuses on implementing a deep learning–based image classification pipeline using **ResNet50**, including training, evaluation, and result visualization.
 
-2). resnet50_trained.pth              → Trained model weights
+---
 
-3). Confusion Matrix.png              → Output result figure
+## 📌 Project Overview
+The goal of this assignment was to apply classical and modern computer vision techniques to a real dataset and evaluate model performance.  
+Key tasks included:
 
-4). README.txt                        → Instructions to run the project
+- Data preprocessing and augmentation  
+- Implementing a ResNet50‑based classifier  
+- Training and validation  
+- Generating evaluation metrics (confusion matrix)  
+- Reporting findings  
 
-5). MVDL_Practical_Assignment.pdf     → Report 
+---
 
-▶️ How to Run the Code
+## 🧠 Methods & Techniques
+- **Deep Learning:** ResNet50 architecture  
+- **Training:** Transfer learning + fine‑tuning  
+- **Evaluation:** Accuracy, confusion matrix  
+- **Tools:** Python, PyTorch, NumPy, Matplotlib, OpenCV  
 
-1). Open notebook
+---
 
-2). Run all cells step by step to:
-
-* Load dataset
-* Train model
-* Evaluate results
-
-Trained model weights (resnet50_trained.pth) are in folder to load the save model.
-
- Output 
-
-* Validation accuracy: 87.47%
-* Confusion matrix for performance analysis
-* Per-class accuracy (printed in console)
+## 📂 Repository Structure
 
